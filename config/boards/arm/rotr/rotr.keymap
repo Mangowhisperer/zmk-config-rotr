@@ -26,7 +26,7 @@
 		};
 		two {
 			//F2 | A | S
-			bindings = <&kp F2 &kp A &kp S>;
+			bindings = <&kp F2 &lt 4 A &kp S>;
 			sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
 		};
 		three {
