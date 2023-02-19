@@ -25,9 +25,9 @@
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		two {
-			//PREV | PLAY/PAUSE | NEXT
-			bindings = <&kp LEFT &lt 4 SPACE &kp RIGHT>;
-			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+			//F2 | A | S
+			bindings = <&kp F2 &kp A &kp S>;
+			sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
 		};
 		three {
 			//PREV | PLAY/PAUSE | NEXT
